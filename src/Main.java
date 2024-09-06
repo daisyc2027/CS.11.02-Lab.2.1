@@ -10,6 +10,30 @@ public class Main {
 
     public static void main(String[] args) {
 
+    int firstMethod = add(5, 8);
+    System.out.println(firstMethod);
+
+    int secondMethod = add(1,2,3,4);
+    System.out.println(secondMethod);
+
+    String thirdMethod = morningGreeting("Mr. Ewing");
+    System.out.println(thirdMethod);
+
+    String fourthMethod = afternoonGreeting("Mr. Ewing");
+    System.out.println(fourthMethod);
+
+    String fifthMethod = triple("thegoogoodolls");
+    System.out.println(fifthMethod);
+
+    double sixthMethod = half(10);
+    System.out.println(sixthMethod);
+
+    double seventhMethod = roundPositiveValueToNearestInteger(13.2);
+    System.out.println(seventhMethod);
+
+    double eighthMethod = roundNegativeValueToNearestInteger(-4.6);
+    System.out.println(eighthMethod);
+
     }
     // 1. add
     public static int add(int a, int b){
@@ -46,5 +70,4 @@ public class Main {
         a -= 0.5;
         return (int) a;
     }
-
 }
